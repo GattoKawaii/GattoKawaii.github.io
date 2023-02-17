@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.main{
+    width: 100%;
+}
+
+/* seccion 1* */
+
+.contenedor-1{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/banner.jpg);
+    background-position: center;
+     background-size: 200%; 
+}
+
+.cabecera{
+    background: linear-gradient(180deg, black, rgba(0, 0, 0, 0));
+    width: 100%;
+    height: 100px;
+    display: flex;
+    overflow: hidden;
+}
+
+.logo{
+    width: 20%;
+    padding-left: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Montserrat;
+}
+
+.navegacion{
+    width: 80%;
+    display: flex;
+    justify-content: end; /*Centrado de forma horizontal*/
+    align-items: center;
+}
+
+.link{
+    color: #fff;
+    padding: 70px 30px;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.link:hover{
+    color: #3cf68a;
+    transition: 0.5s;
+}
+
+.banner{
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.banner_textos{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.banner_textos h1{
+    font-size: 100px;
+}
+
+.banner_textos p{
+    font-size: 36px;
+    margin: 20px 0 75px 0;
+}
+
+.banner_textos a{
+    background-color: #3cf68a;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 24px;
+    color: #fff;
+    border-radius: 40px;
+}
+
+.banner_textos a:hover{
+    transition: 0.5s;
+    background-color: #fff;
+    width: 50%;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: none;
+    font-size: 24;
+    color: #3cf68a;
+    border-radius: 40px;
+}
+
+/* seccion 2 */
+
+.contenedor-2{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 400px 0;
+    background-color: #F5EDCE;
+}
+
+.text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text h2{
+    font-size: 36px;
+    
+   
+}
+
+.text p{
+    margin: 60px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.fotos{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.foto_img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.foto_img img{
+    border-radius: 18px;
+}
+
+.foto_img h3{
+    margin: 10px 0;
+    font-size: 28px;
+}
+
+.foto_img p{
+    font-size: 18px;
+}
+
+/* pagona leon */
+
+.contenedor-3{
+    width: 100%;
+    background-color: #F5EDCE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    
+}
+
+.contenedor-3_img{
+    width: 50%;
+}
+
+.contenedor-3_text{
+    width: 35%;
+}
+
+.contenedor-3_text h2{
+    font-size: 48px;
+}
+
+.contenedor-3_text h3{
+    font-size: 30px;
+}
+
+.contenedor-3_text p{
+    font-size: 20px;
+    margin: 40px 0;
+
+}
+
+.contenedor-3_text a{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.contenedor-3_text a:hover{
+    transition: 0.5s;
+    font-size: 18px;
+    background-color: #3cf68a;
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.audio{
+    margin: 40px 0;
+}
+
+.iframe{
+    margin: 40px 0;
+}
+
+/* Seccion formulario */
+
+.contenedor-4{
+    background-color: #0A2647;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    padding: 400px 0;
+}
+
+
+
+.formulario{
+    bottom: 10px;
+    width: 30%;
+    padding: 15px 15px;
+}
+
+.formulario-titulo{
+    font-size: 25px;
+    margin: 25px auto;
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns:  50% 50%;
+}
+
+.item-1, .item-2{
+    width: 95%;
+    height: 45px;
+    margin: 7px auto;
+    outline: none;
+    border-radius: 8px;
+}
+
+.item-3{
+    width: 98%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+    border-radius: 8px;
+}
+
+.textarea{
+    width: 98%;
+    height: 100px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    outline: none;
+    resize: none;
+    border-radius: 8px;
+    border-style: none;
+}
+
+.submit{
+    width: 30%;
+    height: 45px;
+    margin: 7px auto;
+    grid-column: 1/3;
+    border-radius: 8px;
+}
+
+.boleto{
+    font-family: montserrat;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 15px 0;
+    border-radius: 10px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.boleto2{
+    padding: 85px 80px;
+}
+
+::placeholder{
+    font-family: montserrat;
+    padding: 14px;
+}
+
+/* seccion receta */
+.contenedor-5{
+    width: 100%;
+    height: 80vh;
+    background-color: #F5EDCE;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-5_text{
+    width: 45%;
+}
+
+.contenedor-5_img{
+    width: 35%;
+}
+
+
+.contenedor-5_text h2{
+    font-size: 48px;
+}
+
+.contenedor-5_text h3{
+    font-size: 30px;
+}
+
+.contenedor-5_text p{
+    font-size: 20px;
+    margin: 40px 0;
+
+}
+
+.contenedor-5_text a{
+    font-size: 18px;
+    background-color: #fff;
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.contenedor-5_text a:hover{
+    transition: 0.5s;
+    font-size: 18px;
+    background-color: #3cf68a;
+    padding: 15px 40px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width:400px){
+    
+
+    .contenedor-1{
+        flex-direction: column;
+    }
+
+    .banner_textos{
+        font-size: 10px;
+    }
+
+    .h1{
+        font-size: 10px;
+    }
+
+}
+
+
+
+ 
+
